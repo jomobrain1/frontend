@@ -4,13 +4,13 @@ export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
   axios: {
-    baseURL: "https://backend-gules-phi.vercel.app/holidays",
+    baseURL: "https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays",
     proxyHeaders: false,
     credentials: false,
     proxy: true,
   },
   proxy: {
-    "/api": "http://localhost:4020/holidays",
+    "/api": "https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays",
   },
 
   publicRuntimeConfig: {

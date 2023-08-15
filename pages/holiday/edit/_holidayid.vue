@@ -81,7 +81,7 @@ export default {
 
       axios
         .put(
-          `https://backend-gules-phi.vercel.app/holidays/${this.$route.params.holidayid}`,
+          `https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays/${this.$route.params.holidayid}`,
           this.holiday
         )
         .then((response) => {

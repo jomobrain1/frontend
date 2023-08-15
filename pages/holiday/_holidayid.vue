@@ -48,7 +48,9 @@ export default {
   methods: {
     async getHolidayById() {
       axios
-        .get(`https://backend-gules-phi.vercel.app/holidays/${this.$route.params.holidayid}`)
+        .get(
+          `https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays/${this.$route.params.holidayid}`
+        )
         .then((response) => {
           console.log(response.data);
           this.holiday = response.data;
@@ -60,7 +62,7 @@ export default {
     async deleteHoliday() {
       axios
         .delete(
-          `https://backend-gules-phi.vercel.app/holidays/${this.$route.params.holidayid}`
+          `https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays/${this.$route.params.holidayid}`
         )
         .then(() => {
           this.$router.push("/HomePage");

@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "https://backend-gules-phi.vercel.app/holidays";
+const baseUrl = "https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays";
 export const state = () => ({
   holidays: [],
   keyword: "",

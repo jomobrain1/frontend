@@ -48,7 +48,7 @@ export default {
     ...mapActions(["getAllHoliday"]),
     async search() {
       const res = await axios.get(
-        `https://backend-gules-phi.vercel.app/holidays?keyword=${this.keyword}`
+        `https://backend-m0xoi0zjp-jomobrain1.vercel.app/holidays?keyword=${this.keyword}`
       );
       console.log(res.data);
       this.products = res.data;
