@@ -86,7 +86,7 @@ export default {
           seats: this.seats,
         };
         this.createHoliday(data);
-        this.$router.push("/HomePage");
+        // this.$router.push("/HomePage");
       }
     },
   },
